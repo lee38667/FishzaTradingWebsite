@@ -39,4 +39,4 @@ Welcome to the **Fishza Trading** website, developed to showcase the company's e
 ## **Author**
 
 - **GitHub**: [Lineekela Shinavene](https://github.com/lee38667)
-- **LinkedIn**: [Lineekela Shinavene](www.linkedin.com/in/lineekela-shinavene)
+- **LinkedIn**: [Lineekela Shinavene](https://www.linkedin.com/in/lineekela-shinavene/)
