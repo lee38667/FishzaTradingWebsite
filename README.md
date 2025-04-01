@@ -1,46 +1,42 @@
-# We Construct
 
-This app is my personal landing page project. Design was based on my front-end training. Just added and improve some details. Practice my sass skill instead of using bootstrap framework.
+---
 
-## Table of contents
+# **Fishza Trading**
+
+Welcome to the **Fishza Trading** website, developed to showcase the company's expertise in **warehousing** and **logistics** services. This landing page is designed to represent the efficiency and reliability of Fishza Trading, highlighting their key services, projects, testimonials, and contact options.
+
+## **Table of Contents**
 
 - [Overview](#overview)
   - [User Stories](#user-stories)
   - [Screenshot](#screenshot)
-- [My process](#my-process)
-
+- [My Process](#my-process)
   - [Built with](#built-with)
-
 - [Author](#author)
 
-## Overview
+## **Overview**
 
-### User Stories
+### **User Stories**
 
-- Simple websites contains about the WeConstruct company and its services, projects, testimonials, and blogs.
-- It has also contacts form that you can have your inquiries some business hours and addresses.
+- A clean, professional website for **Fishza Trading** featuring key information about their **warehousing**, **logistics**, and **inventory management** services.
+- Sections include **services**, **projects**, **testimonials**, and **blogs**, providing insights into past work and company expertise.
+- A **contact form** is available for inquiries, with business hours and addresses displayed for easy communication.
 
-### Screenshot
+## **My Process**
 
-![](/assets/images/we-construct.png)
+### **Built with**
 
-## My process
+- **Semantic HTML5** markup to ensure proper document structure.
+- **CSS / SCSS** (Sass) for custom styling and flexibility.
+- **JavaScript** for interactivity, including form validation and smooth scrolling.
+- **Gulp** for task automation (e.g., CSS and JavaScript minification).
+- **Babel** for modern JavaScript functionality across all browsers.
 
-### Built with
+### **Useful Resources**
 
-- Semantic HTML5 markup
-- CSS / SCSS
-- JavaScript
-- [Gulp](https://gulpjs.com/)
-- [Babel](https://babeljs.io/docs/)
+- [Swiper.js](https://swiperjs.com/) - Used to create interactive and smooth sliders for displaying project images and testimonials.
 
-### Useful resources
+## **Author**
 
-- [Swipe.js](https://swiperjs.com/) - Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior. It is intended to be used in mobile websites, mobile web apps, and mobile native/hybrid apps..
-
-## Author
-
-- Github - [https://github.com/Jeth0214](https://github.com/Jeth0214)
-- Frontend Mentor - [@Jeth0214](https://www.frontendmentor.io/profile/Jeth0214)
-- Twitter - [@JethroSuyom](https://twitter.com/JethroSuyom)
-- LinkedIn - [Roland Jethro Suyom](https://www.linkedin.com/in/roland-jethro-suyom-198a89207/)
+- **GitHub**: [Lineekela Shinavene](https://github.com/lee38667)
+- **LinkedIn**: [Lineekela Shinavene](www.linkedin.com/in/lineekela-shinavene)
