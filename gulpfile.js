@@ -57,3 +57,5 @@ function watchTask() {
 
 // Deafault Gulp Task
 exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
+exports.build = series(scssTask, jsTask); // Add this line
+exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
