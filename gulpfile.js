@@ -57,11 +57,16 @@ function watchTask() {
 
 // Deafault Gulp Task
 exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
-exports.build = series(htmlTask, scssTask, jsTask);
-exports.default = series(htmlTask, scssTask, jsTask, browserSyncServe, watchTask);
+exports.default = series(scssTask, jsTask, htmlTask, assetsTask, browserSyncServe, watchTask);
+exports.build = series(scssTask, jsTask, htmlTask, assetsTask);
+
 // HTML Task
 
 function htmlTask() {
   return src("index.html").pipe(dest("dist"));
 }
+function assetsTask() {
+  return src("app/assets/**/*").pipe(dest("dist/assets"));
+}
+
 // HTML Task
