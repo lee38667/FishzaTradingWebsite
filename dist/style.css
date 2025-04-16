@@ -1643,10 +1643,10 @@ textarea {
   transform: scale(1.1);
 }
 .projects .project:hover .project__details {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
 }
 .projects .project .project__details {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0);
   bottom: 0;
   color: #fff;
   left: 0;
