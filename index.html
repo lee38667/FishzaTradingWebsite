@@ -1,668 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="assets/images/home/FishzaWebLogo.svg"
-      type="image/x-icon"
-    />
-    <title>Fishza Trading</title>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- Montserrat Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Swiper Css -->
-    <link rel="stylesheet" href="dist/swiper-bundle.min.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/images/home/FishzaWebLogo.svg" type="image/x-icon" />
+  <title>Fishza Trading</title>
 
-    <!-- Core Theme Css -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Montserrat Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!-- Swiper Css -->
+  <link rel="stylesheet" href="dist/swiper-bundle.min.css" />
 
-    <!-- Swiper Js -->
-    <script defer src="dist/swiper-bundle.min.js"></script>
-    <!-- JavaScript Link -->
-    <script defer src="dist/script.js"></script>
-    <script defer src="dist/form.js"></script>
-  </head>
+  <!-- Core Theme Css -->
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <!-- Header -->
-    <header class="header" id="header">
-      <div id="overlay"></div>
-      <nav class="nav container pt-3 pb-2">
-        <!-- Nav Brand -->
-        <div class="nav__brand">
-          <a href="/" class="display-f align-center">
-        <img
-          loading="lazy"
-          src="assets\images\home\FishzaLogo.png"
-          alt="Fishza Logo"
-          class="nav__brand-image pr-1"
-          style="width: 140px; height: auto;" 
-        />
-          </a>
-        </div>
+  <!-- Swiper Js -->
+  <script defer src="dist/swiper-bundle.min.js"></script>
+  <!-- JavaScript Link -->
+  <script defer src="dist/script.js"></script>
+  <script defer src="dist/form.js"></script>
+</head>
 
-        <!-- Nav Hamburger Menu -->
-        <div id="nav__toggle" class="nav__toggle hide-for-desktop">
-          <span class="nav__burger-line nav__burger-line--1"></span>
-          <span class="nav__burger-line nav__burger-line--2"></span>
-          <span class="nav__burger-line nav__burger-line--3"></span>
-        </div>
-
-        <!-- Nav Links -->
-        <div class="nav__links hide-for-mobile">
-          <a href="#about-us" class="nav__link text-white fw-bold">About Us</a>
-          <a href="#services" class="nav__link text-white fw-bold">Services</a>
-          <a href="#projects" class="nav__link text-white fw-bold">Projects</a>
-        </div>
-
-        <!--  Cta Button-->
-        <a
-          href="#contact-us"
-          class="btn-primary text-black nav__cta hide-for-medium"
-        >
-          Contact Us
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div id="overlay"></div>
+    <nav class="nav container pt-3 pb-2">
+      <!-- Nav Brand -->
+      <div class="nav__brand">
+        <a href="/" class="display-f align-center">
+          <img loading="lazy" src="assets\images\home\FishzaLogo.png" alt="Fishza Logo" class="nav__brand-image pr-1"
+            style="width: 140px; height: auto;" />
         </a>
-      </nav>
-    </header>
-    <!-- End of Header -->
-    <!-- Main Section -->
-    <main class="main">
-      <!--  Sticky scroll to the button  -->
-      <button
-        onClick="scrollToTop()"
-        class="fab-button br-full text-purple border-purple position-fixed"
-      >
-        <span class="sr-only">Button to scroll to the top</span>
-        <i class="fa-solid fa-chevron-up"></i>
-      </button>
+      </div>
 
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="container" style="height: 100%; max-width: 72%">
-          <div class="hero__text text-light">
-            <h1 class="hero__title h1">
-              <span class="text-primary">Reliable Labour Solution</span> For
-              Warehousing & Logistics
-            </h1>
-            <div class="hero__description h4 mt-2 mb-2">
-              <p class="mt-2">
-                <span
-                  class="text-italic fw-700 fade-in"
-                  style="
+      <!-- Nav Hamburger Menu -->
+      <div id="nav__toggle" class="nav__toggle hide-for-desktop">
+        <span class="nav__burger-line nav__burger-line--1"></span>
+        <span class="nav__burger-line nav__burger-line--2"></span>
+        <span class="nav__burger-line nav__burger-line--3"></span>
+      </div>
+
+      <!-- Nav Links -->
+      <div class="nav__links hide-for-mobile">
+        <a href="#about-us" class="nav__link text-white fw-bold">About Us</a>
+        <a href="#services" class="nav__link text-white fw-bold">Services</a>
+        <a href="#projects" class="nav__link text-white fw-bold">Projects</a>
+      </div>
+
+      <!--  Cta Button-->
+      <a href="#contact-us" class="btn-primary text-black nav__cta hide-for-medium">
+        Contact Us
+      </a>
+    </nav>
+  </header>
+  <!-- End of Header -->
+  <!-- Main Section -->
+  <main class="main">
+    <!--  Sticky scroll to the button  -->
+    <button onClick="scrollToTop()" class="fab-button br-full text-purple border-purple position-fixed">
+      <span class="sr-only">Button to scroll to the top</span>
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container" style="height: 100%; max-width: 72%">
+        <div class="hero__text text-light">
+          <h1 class="hero__title h1">
+            <span class="text-primary">Reliable Labour Solution</span> For
+            Warehousing & Logistics
+          </h1>
+          <div class="hero__description h4 mt-2 mb-2">
+            <p class="mt-2">
+              <span class="text-italic fw-700 fade-in" style="
                     color: #fff201;
                     font-family: Montserrat;
                     font-size: 20px;
-                  "
-                >
-                  Efficiency. Commitment. Excellence in Every Task.
-                </span>
-              </p>
-            </div>
-            <a
-              href="#contact-us"
-              class="btn display-i-b btn-primary h4 text-black"
-            >
-              Get a Quote
+                  ">
+                Efficiency. Commitment. Excellence in Every Task.
+              </span>
+            </p>
+          </div>
+          <a href="#contact-us" class="btn display-i-b btn-primary h4 text-black">
+            Get a Quote
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End of Hero Section -->
+
+    <!-- About Us Section -->
+    <section id="about-us" class="container section bg-purple br text-dark-gray about-us">
+      <h2 class="h2 mb-3 text-center text-black">
+        <span class="header-underline">About Us</span>
+      </h2>
+      <div class="row gap-3 justify-space-between align-start about-us__details">
+        <div class="col-12-sm col-5-md about-us__company border-line">
+          <h3 class="h3 text-black">Our Company</h3>
+          <p>
+            <span class="text-dark-gray fw-bold fnt-size">Fishza Trading</span>
+            <span class="fnt-size">is an Warehousing and Logistics company situated in Windhoek
+              Namibia.</span>
+          </p>
+          <p class="mt-1 mb-1 fnt-size">
+            We specialize in providing reliable, skilled labour solutions for
+            the warehousing and logistics industry.
+          </p>
+          <p class="mt-1 mb-1 fnt-size">
+            We have a team of professionals who are skilled and experienced in
+            different logistics related fields. We also offer wareshousing
+            services for our clients.
+          </p>
+          <p class="mb-1 fnt-size">
+            Our strength lies in our versatility and genuine interest in
+            satisfying our clients by delivering high-quality solutions in a
+            cost-effective manner. We strive to understand their unique needs,
+            adapt to evolving challenges, and provide innovative, efficient,
+            and reliable services that exceed expectations.
+          </p>
+        </div>
+        <div class="col-12-sm col-5-md">
+          <div class="about-us__value">
+            <h3 class="h3 text-black">Our Core Value and Mission</h3>
+            <p class="mt-1 mb-2 fnt-size">
+              We understand the fast-paced nature of logistics and
+              warehousing. That’s why we provide agile, multi-user services,
+              ensuring smooth operations in transport, inventory control, and
+              warehouse management
+            </p>
+          </div>
+          <div class="about-us__mission mt-2 fnt-size">
+            <p class="mt-1">
+              With a customer-centric approach and a dedication to
+              reliability, we streamline operations, reduce costs, and enhance
+              productivity, allowing businesses to focus on growth while we
+              handle the logistics. Partner with us for seamless, scalable,
+              and innovative warehousing and logistics solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About Us section -->
+
+    <!-- Founder Section  -->
+    <section class="container section founder">
+      <h2 class="h2 text-center">
+        <span class="header-underline">Our Founder</span>
+      </h2>
+      <div class="row gap-3 justify-space-between align-center mt-3 transition">
+        <div class="col-12-sm col-5-md">
+          <img loading="lazy" src="./assets/images/home/founder.jpg " alt="Founder Image" class="founder__image br" />
+        </div>
+        <div class="col-12-sm col-5-md">
+          <h3 class="h2 text-dark">Mr. Ryan Meyer</h3>
+          <p class="mt-1 mb-1 fnt-size">
+            With over 15 years of leadership experience, Mr. Ryan Meyer is
+            committed to driving organizational growth and empowering teams.
+            Passionate about efficiency, strategic planning, and excellence,
+            he leads with a strong work ethic and a results-driven approach.
+            At Fishza Trading, we are dedicated to providing reliable,
+            high-quality labour solutions to keep your operations running
+            smoothly.
+          </p>
+          <p class="mb-1 fnt-size">
+            Under his leadership, Fishza Trading has built a strong reputation
+            for quality and customer satisfaction, becoming a trusted name in
+            the industry.
+          </p>
+          <div class="mt-2">
+            <a href="https://www.linkedin.com/in/ryan-meyer30/" target="_blank" class="social-media__link">
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+              <span class="sr-only">LinkedIn Profile</span>
             </a>
           </div>
         </div>
-      </section>
-      <!-- End of Hero Section -->
-
-      <!-- About Us Section -->
-      <section
-        id="about-us"
-        class="container section bg-purple br text-dark-gray about-us"
-      >
-        <h2 class="h2 mb-3 text-center text-black">
-          <span class="header-underline">About Us</span>
-        </h2>
-        <div
-          class="row gap-3 justify-space-between align-start about-us__details"
-        >
-          <div class="col-12-sm col-5-md about-us__company border-line">
-            <h3 class="h3 text-black">Our Company</h3>
-            <p>
-              <span class="text-dark-gray fw-bold fnt-size"
-                >Fishza Trading</span
-              >
-              <span class="fnt-size"
-                >is an Warehousing and Logistics company situated in Windhoek
-                Namibia.</span
-              >
-            </p>
-            <p class="mt-1 mb-1 fnt-size">
-              We specialize in providing reliable, skilled labour solutions for
-              the warehousing and logistics industry.
-            </p>
-            <p class="mt-1 mb-1 fnt-size">
-              We have a team of professionals who are skilled and experienced in
-              different logistics related fields. We also offer wareshousing
-              services for our clients.
-            </p>
-            <p class="mb-1 fnt-size">
-              Our strength lies in our versatility and genuine interest in
-              satisfying our clients by delivering high-quality solutions in a
-              cost-effective manner. We strive to understand their unique needs,
-              adapt to evolving challenges, and provide innovative, efficient,
-              and reliable services that exceed expectations.
-            </p>
-          </div>
-          <div class="col-12-sm col-5-md">
-            <div class="about-us__value">
-              <h3 class="h3 text-black">Our Core Value and Mission</h3>
-              <p class="mt-1 mb-2 fnt-size">
-                We understand the fast-paced nature of logistics and
-                warehousing. That’s why we provide agile, multi-user services,
-                ensuring smooth operations in transport, inventory control, and
-                warehouse management
-              </p>
-            </div>
-            <div class="about-us__mission mt-2 fnt-size">
-              <p class="mt-1">
-                With a customer-centric approach and a dedication to
-                reliability, we streamline operations, reduce costs, and enhance
-                productivity, allowing businesses to focus on growth while we
-                handle the logistics. Partner with us for seamless, scalable,
-                and innovative warehousing and logistics solutions.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End of About Us section -->
-
-      <!-- Founder Section  -->
-      <section class="container section founder">
-        <h2 class="h2 text-center">
-          <span class="header-underline">Our Founder</span>
-        </h2>
-        <div
-          class="row gap-3 justify-space-between align-center mt-3 transition"
-        >
-          <div class="col-12-sm col-5-md">
-            <img
-              loading="lazy"
-              src="./assets/images/home/Unknown.jpg"
-              alt="Founder Image"
-              class="founder__image br"
-            />
-          </div>
-          <div class="col-12-sm col-5-md">
-            <h3 class="h2 text-dark">Mr. RYAN MEYER</h3>
-            <p class="mt-1 mb-1 fnt-size">
-              With over 15 years of leadership experience, Mr. Ryan Meyer is
-              committed to driving organizational growth and empowering teams.
-              Passionate about efficiency, strategic planning, and excellence,
-              he leads with a strong work ethic and a results-driven approach.
-              At Fishza Trading, we are dedicated to providing reliable,
-              high-quality labour solutions to keep your operations running
-              smoothly.
-            </p>
-            <p class="mb-1 fnt-size">
-              Under his leadership, Fishza Trading has built a strong reputation
-              for quality and customer satisfaction, becoming a trusted name in
-              the industry.
-            </p>
-            <div class="mt-2">
-              <a
-                href="https://www.linkedin.com/in/ryan-meyer30/"
-                target="_blank"
-                class="social-media__link"
-              >
-                <i class="fa-brands fa-linkedin fa-2x"></i>
-                <span class="sr-only">LinkedIn Profile</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End of Founder Section -->
-      <!-- Services Section -->
-      <section
-        id="services"
-        class="services container section text-center bg-bricks br pr-3 pl-3"
-      >
-        <h2 class="h2">
-          <span class="header-underline text-white">Services</span>
-        </h2>
-        <p class="services__description mt-2 mb-3 text-white">
-          These are the services our business provides.
-        </p>
-        <div class="cards row gap-3 justify-center">
-          <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
-            <div class="card__image service__image">
-              <i class="fa-solid"></i>
-              <i class="fa-solid fa-people-carry-box"></i>
-            </div>
-            <div class="card__body">
-              <h4 class="card__title mt-1 text-black">
-                Packaging & Load Securing
-              </h4>
-              <p class="card__text">
-                Proper packing, wrapping, and securing of goods to prevent
-                damage during transport.
-              </p>
-            </div>
-          </div>
-          <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
-            <div class="card__image service__image">
-              <i class="fa-solid fa-warehouse"></i>
-              <span class="sr-only">Container Stuffing</span>
-            </div>
-            <div class="card__body">
-              <h4 class="card__title mt-1 text-primary">
-                Warehouse Cleaning & Organizing
-              </h4>
-              <p class="card__text">
-                Maintaining a clean and organized warehouse environment for
-                safety and efficiency.
-              </p>
-            </div>
-          </div>
-
-          <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
-            <div class="card__image service__image">
-              <i class="fa-solid fa-boxes-packing"></i>
-              <span class="sr-only">Boxes</span>
-            </div>
-            <div class="card__body">
-              <h4 class="card__title text-primary mt-1">
-                Repacking Of Various Products
-              </h4>
-              <p class="card__text">
-                Sorting, repacking, and labeling of products like washing
-                powders, rice, and fertilizers.
-              </p>
-            </div>
-          </div>
-
-          <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
-            <div class="card__image service__image">
-              <i class="fa-sharp fa-solid fa-boxes-stacked"></i>
-              <span class="sr-only">boxes stacked</span>
-            </div>
-            <div class="card__body">
-              <h4 class="card__title text-primary mt-1">
-                Warehouse Management
-              </h4>
-              <p class="card__text">
-                Monitoring stock levels, tracking inventory, and ensuring proper
-                warehouse organization.
-              </p>
-            </div>
-          </div>
-          <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
-            <div class="card__image service__image">
-              <i class="fa-solid fa-truck-ramp-box fa-sharp"></i>
-              <span class="sr-only">Truck Loading Icon</span>
-            </div>
-            <div class="card__body">
-              <h4 class="card__title text-primary mt-1">Truck Loading</h4>
-              <p class="card__text">
-                We specialize in efficiently loading 25kg and 50kg bags onto
-                trucks, ensuring secure stacking for safe transportation
-              </p>
-            </div>
-          </div>
-          <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
-            <div class="card__image service__image">
-              <i class="fa-solid fa-pallet"></i>
-              <span class="sr-only">People roof icon</span>
-            </div>
-            <div class="card__body">
-              <h4 class="card__title text-primary mt-1">Pallet Packing</h4>
-              <p class="card__text">
-                Proper packing, wrapping, and securing of goods to prevent
-                damage during transport.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End of services Section -->
-
-      <!-- Projects -->
-      <section id="projects" class="container section text-center">
-        <h2 class="h2"><span class="header-underline">Our Projects</span></h2>
-        <p class="mt-2 mb-3">
-          These are some of our top Projects around the world.
-          <br />
-          When Construction done was based on happiness/passion ,education,
-          <br />
-          innovation/creativity,transparrency, excellent, giving back and
-          safety.
-        </p>
-
-        <div class="projects">
-          <div class="project">
-            <div class="project__details">
-              <h4 class="project__title text-primary h4">Asgard Bifrost</h4>
-              <p class="project__location">
-                <span
-                  ><img
-                    loading="lazy"
-                    src="./assets/images/projects/icons8_marker_100px 1.png"
-                    alt=""
-                    aria-hidden="true"
-                /></span>
-                Asgard, Center of the World
-              </p>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project__details">
-              <h4 class="project__title text-primary h4">
-                Asgardian New Residence
-              </h4>
-              <p class="project__location">
-                <span
-                  ><img
-                    loading="lazy"
-                    src="./assets/images/projects/icons8_marker_100px 1.png"
-                    alt=""
-                    aria-hidden="true"
-                /></span>
-                St Abbs, Scotland
-              </p>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project__details">
-              <h4 class="project__title text-primary h4">
-                Avengers HeadQuarter
-              </h4>
-              <p class="project__location">
-                <span
-                  ><img
-                    loading="lazy"
-                    src="./assets/images/projects/icons8_marker_100px 1.png"
-                    alt=""
-                    aria-hidden="true"
-                /></span>
-                Upstate New York
-              </p>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project__details">
-              <h4 class="project__title text-primary h4">Wakanda Building</h4>
-              <p class="project__location">
-                <span
-                  ><img
-                    loading="lazy"
-                    src="./assets/images/projects/icons8_marker_100px 1.png"
-                    alt=""
-                    aria-hidden="true"
-                /></span>
-                Wakanda, East Africa
-              </p>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project__details">
-              <h4 class="project__title text-primary h4">Stark Tower</h4>
-              <p class="project__location">
-                <span
-                  ><img
-                    loading="lazy"
-                    src="./assets/images/projects/icons8_marker_100px 1.png"
-                    alt=""
-                    aria-hidden="true"
-                /></span>
-                Midtown Manhattan, New York City, USA
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End of project section -->
-
-      <!-- Banners -->
-      <section class="banners section">
-        <div
-          class="container row gap-3 text-white text-center justify-space-between"
-        >
-          <div class="banner col-12-xs col-3-lg border-light p-5">
-            <h2 class="banner__number h2">Need reliable warehouse labour?</h2>
-            <p class="banner_description h5">We’ve got the team for the job!</p>
-          </div>
-          <div class="banner col-12-xs col-3-lg border-light p-5">
-            <h2 class="banner__number h2">Need trucks loaded fast?</h2>
-            <p class="banner_description h5">
-              We handle it with speed and precision!
-            </p>
-          </div>
-          <div class="banner col-12-xs col-3-lg border-light p-5">
-            <h2 class="banner__number h2">
-              Want a clean and organized warehouse?
-            </h2>
-            <p class="banner_description h5">Leave the hard work to us!</p>
-          </div>
-        </div>
-      </section>
-      <!-- End Of Banner Section -->
-
-      <!-- Contact Us Section -->
-      <section id="contact-us" class="container contact-us section">
-        <!-- Form toaster message -->
-        <section id="toaster" class="toaster">
-          <p>Thanks for being interested in working with us!</p>
-          <p>We will reply as soon as possible.</p>
-        </section>
-
-        <div class="text-center">
-          <h2 class="h2"><span class="header-underline">Contact Us</span></h2>
-          <p class="mt-2 mb-3">Don't hesitate to contact us.</p>
-        </div>
-        <div class="row gap-4 justify-space-between mt-4">
-          <div class="contact__form col-12-xs col-5-md border-line">
-            <h3 class="h3">Message Us</h3>
-            <form
-              class="mt-2 form"
-              id="contactForm"
-              onSubmit="submitForm(event)"
-              action="https://formspree.io/f/mldjwyen"
-              method="POST"
-              novalidate
-            >
-              <input type="hidden" name="_replyto" value="lee38667@gmail.com" />
-              <div class="form__group">
-              <label class="h5" for="fullName">Full Name</label>
-              <input
-                type="text"
-                name="fullName"
-                class="form__control"
-                id="fullName"
-                placeholder="John Doe"
-              />
-              <small class="text-error"></small>
-              </div>
-
-              <div class="form__group">
-              <label class="h5" for="phoneNumber">Phone Number</label>
-              <input
-                type="text"
-                name="phoneNumber"
-                class="form__control"
-                id="phoneNumber"
-                placeholder="+123 023456789"
-              />
-              <small class="text-error"></small>
-              </div>
-
-              <div class="form__group">
-              <label class="h5" for="email">Email Address</label>
-              <input
-                type="email"
-                name="email"
-                class="form__control"
-                id="email"
-                placeholder="johndoe@gmail.com"
-              />
-              <small class="text-error"></small>
-              </div>
-
-              <div class="form__group">
-              <label class="h5" for="message">Message</label>
-              <textarea
-                class="form__control form__control--textarea"
-                name="message"
-                id="message"
-                cols="30"
-                rows="10"
-                placeholder=" How can we help?"
-              ></textarea>
-              <small class="text-error"></small>
-              </div>
-
-              <button
-              id="submit"
-              class="btn-primary form__submit-btn text-dark pt-1 pb-1 pl-3 pr-3 h4"
-              type="submit"
-              >
-              Submit
-              </button>
-            </form>
-          </div>
-          <div class="col-5-md col-12-xs">
-            <div class="contact__info">
-              <h3 class="h3">Get In Touch</h3>
-              <div class="contact__numbers display-f gap-2 mt-2">
-                <div class="h4 text-dark">
-                  <i class="fa-solid fa-phone"></i>
-                </div>
-                <div class="h5">
-                  <p>+264 81 221 8451</p>
-                </div>
-              </div>
-              <div class="contact__email display-f gap-2 mt-1">
-                <div class="h4 text-dark">
-                  <i class="fa-solid fa-envelope"></i>
-                </div>
-                <p class="h5">fishzatrading@gmail.com</p>
-              </div>
-            </div>
-            <div class="contact__hours mt-3 mb-3">
-              <h3 class="h3">Business Hours</h3>
-
-              <div class="display-f gap-2 mt-2">
-                <div class="h4 text-dark">
-                  <i class="fa-solid fa-headset"></i>
-                </div>
-                <p class="h5">
-                  Our Call center is always available 24 hours a day, 7 days a
-                  week
-                </p>
-              </div>
-              <div class="display-f gap-2 mt-1">
-                <div class="h4 text-dark">
-                  <i class="fa-solid fa-clock"></i>
-                </div>
-                <div class="h5">
-                  <p>Monday-Friday: <span class="ml-1">9am- 5pm</span></p>
-                  <p>Saturday: <span class="ml-1">9am - 2pm</span></p>
-                  <p>Sunday:<span class="ml-1">Closed</span></p>
-                </div>
-              </div>
-            </div>
-            <h3 class="h3">Office Location</h3>
-            <div class="display-f gap-2 mt-1 mb-1">
-              <div class="h4 text-dark">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <p class="h5 mb-1">Windhoek, Namibia</p>
-            </div>
-            <iframe
-              title="Windhoek Namibia"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4911588753216!2d3.334067814266794!3d6.585703724265425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b91f4561a4f95%3A0x35b4d251e9caeb49!2sTijani%20Ahmed%20Way%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sar!4v1593524047503!5m2!1sen!2sar"
-              width="inherit"
-              height="450"
-              frameborder="1"
-              allowfullscreen=""
-              aria-hidden="false"
-              tabindex="0"
-              class="w-100 contact__location"
-            ></iframe>
-          </div>
-        </div>
-      </section>
-      <!-- End of Contact section -->
-    </main>
-    <!-- End of Main Section -->
-
-    <!-- Footer Section  -->
-    <footer class="footer bg-dark text-white pt-5 pb-5">
-      <div class="container">
-        <div class="row gap-3 justify-space-between footer__about">
-          <div class="col-12-xs col-3-md">
-            <div class="mb-2">
-              <a href="/" class="display-f footer__brand align-center">
-                <img
-                  loading="lazy"
-                  src="./assets/images/home/FishzaLogo.png"
-                  alt="Fishza Trading Logo"
-                  class="footer__brand-image"
-                />
-              </a>
-            </div>
-            <p class="mb-3">
-              Fishza Trading is a trusted labour solutions provider, offering a
-              wide range of services tailored to the warehousing and logistics
-              industry.
-            </p>
-
-            <div>
-              <a
-                href="#contact-us"
-                type="button"
-                class="footer_cta btn-primary text-dark h5 px-2"
-                >Get a Quote</a
-              >
-            </div>
-          </div>
-            <div class="col-12-xs col-3-md hide-for-mobile">
-            <h3 class="h3 text-primary text-center mb-3">Pages</h3>
-            <div class="footer__links display-g justify-center gap-3">
-              <a
-              href="#about-us"
-              class="footer__link text-primary text-hover-primary h5"
-              >About Us</a
-              >
-              <a
-              href="#services"
-              class="footer__link text-primary text-hover-primary h5"
-              >Services</a
-              >
-              <a
-              href="#projects"
-              class="footer__link text-primary text-hover-primary h5"
-              >Projects</a
-              >
-            </div>
-            </div>
-          </div>
-          </div>
-        <h4 class="h4 text-center fw-normal mt-5">
-          COPYRIGHT &copy; Fishza Trading | 2025 | ALL RIGHTS RESERVED.
-        </h4>
       </div>
-    </footer>
-  </body>
+    </section>
+    <!-- End of Founder Section -->
+    <!-- Services Section -->
+    <section id="services" class="services container section text-center bg-bricks br pr-3 pl-3">
+      <h2 class="h2">
+        <span class="header-underline text-white">Services</span>
+      </h2>
+      <p class="services__description mt-2 mb-3 text-white">
+        These are the services our business provides.
+      </p>
+      <div class="cards row gap-3 justify-center">
+        <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
+          <div class="card__image service__image">
+            <i class="fa-solid"></i>
+            <i class="fa-solid fa-people-carry-box"></i>
+          </div>
+          <div class="card__body">
+            <h4 class="card__title mt-1 text-black">
+              Packaging & Load Securing
+            </h4>
+            <p class="card__text">
+              Proper packing, wrapping, and securing of goods to prevent
+              damage during transport.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
+          <div class="card__image service__image">
+            <i class="fa-solid fa-warehouse"></i>
+            <span class="sr-only">Container Stuffing</span>
+          </div>
+          <div class="card__body">
+            <h4 class="card__title mt-1 text-primary">
+              Warehouse Cleaning & Organizing
+            </h4>
+            <p class="card__text">
+              Maintaining a clean and organized warehouse environment for
+              safety and efficiency.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
+          <div class="card__image service__image">
+            <i class="fa-solid fa-boxes-packing"></i>
+            <span class="sr-only">Boxes</span>
+          </div>
+          <div class="card__body">
+            <h4 class="card__title text-primary mt-1">
+              Repacking Of Various Products
+            </h4>
+            <p class="card__text">
+              Sorting, repacking, and labeling of products like washing
+              powders, rice, and fertilizers.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
+          <div class="card__image service__image">
+            <i class="fa-sharp fa-solid fa-boxes-stacked"></i>
+            <span class="sr-only">boxes stacked</span>
+          </div>
+          <div class="card__body">
+            <h4 class="card__title text-primary mt-1">
+              Warehouse Management
+            </h4>
+            <p class="card__text">
+              Monitoring stock levels, tracking inventory, and ensuring proper
+              warehouse organization.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
+          <div class="card__image service__image">
+            <i class="fa-solid fa-truck-ramp-box fa-sharp"></i>
+            <span class="sr-only">Truck Loading Icon</span>
+          </div>
+          <div class="card__body">
+            <h4 class="card__title text-primary mt-1">Truck Loading</h4>
+            <p class="card__text">
+              We specialize in efficiently loading 25kg and 50kg bags onto
+              trucks, ensuring secure stacking for safe transportation
+            </p>
+          </div>
+        </div>
+        <div class="card col-12-sm col-4-md col-3-lg br p-3 service mb-2">
+          <div class="card__image service__image">
+            <i class="fa-solid fa-pallet"></i>
+            <span class="sr-only">People roof icon</span>
+          </div>
+          <div class="card__body">
+            <h4 class="card__title text-primary mt-1">Pallet Packing</h4>
+            <p class="card__text">
+              Proper packing, wrapping, and securing of goods to prevent
+              damage during transport.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of services Section -->
+
+    <!-- Projects -->
+    <section id="projects" class="container section text-center">
+      <h2 class="h2"><span class="header-underline">Our Projects</span></h2>
+      <p class="mt-2 mb-3">
+        These are some of our Projects.
+        <br />
+        When Work done was based on happiness/passion ,education,
+        <br />
+        innovation/creativity,transparency, excellent, giving back and
+        safety.
+      </p>
+      <div class="projects">
+        <div class="project">
+          <div class="project__details">
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__details">
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__details">
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__details">
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__details">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of project section -->
+
+    <!-- Banners -->
+    <section class="banners section">
+      <div class="container row gap-3 text-white text-center justify-space-between">
+        <div class="banner col-12-xs col-3-lg border-light p-5">
+          <h2 class="banner__number h2">Need reliable warehouse labour?</h2>
+          <p class="banner_description h5">We’ve got the team for the job!</p>
+        </div>
+        <div class="banner col-12-xs col-3-lg border-light p-5">
+          <h2 class="banner__number h2">Need trucks loaded fast?</h2>
+          <p class="banner_description h5">
+            We handle it with speed and precision!
+          </p>
+        </div>
+        <div class="banner col-12-xs col-3-lg border-light p-5">
+          <h2 class="banner__number h2">
+            Want a clean and organized warehouse?
+          </h2>
+          <p class="banner_description h5">Leave the hard work to us!</p>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Banner Section -->
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="container contact-us section">
+      <!-- Form toaster message -->
+      <section id="toaster" class="toaster">
+        <p>Thanks for being interested in working with us!</p>
+        <p>We will reply as soon as possible.</p>
+      </section>
+
+      <div class="text-center">
+        <h2 class="h2"><span class="header-underline">Contact Us</span></h2>
+        <p class="mt-2 mb-3">Don't hesitate to contact us.</p>
+      </div>
+      <div class="row gap-4 justify-space-between mt-4">
+        <div class="contact__form col-12-xs col-5-md border-line">
+          <h3 class="h3">Message Us</h3>
+          <form class="mt-2 form" id="contactForm" onSubmit="submitForm(event)" action="https://formspree.io/f/mldjwyen"
+            method="POST" novalidate>
+            <input type="hidden" name="_replyto" value="lee38667@gmail.com" />
+            <div class="form__group">
+              <label class="h5" for="fullName">Full Name</label>
+              <input type="text" name="fullName" class="form__control" id="fullName" placeholder="John Doe" />
+              <small class="text-error"></small>
+            </div>
+
+            <div class="form__group">
+              <label class="h5" for="phoneNumber">Phone Number</label>
+              <input type="text" name="phoneNumber" class="form__control" id="phoneNumber"
+                placeholder="+123 023456789" />
+              <small class="text-error"></small>
+            </div>
+
+            <div class="form__group">
+              <label class="h5" for="email">Email Address</label>
+              <input type="email" name="email" class="form__control" id="email" placeholder="johndoe@gmail.com" />
+              <small class="text-error"></small>
+            </div>
+
+            <div class="form__group">
+              <label class="h5" for="message">Message</label>
+              <textarea class="form__control form__control--textarea" name="message" id="message" cols="30" rows="10"
+                placeholder=" How can we help?"></textarea>
+              <small class="text-error"></small>
+            </div>
+
+            <button id="submit" class="btn-primary form__submit-btn text-dark pt-1 pb-1 pl-3 pr-3 h4" type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="col-5-md col-12-xs">
+          <div class="contact__info">
+            <h3 class="h3">Get In Touch</h3>
+            <div class="contact__numbers display-f gap-2 mt-2">
+              <div class="h4 text-dark">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="h5">
+                <p>+264 81 221 8451</p>
+              </div>
+            </div>
+            <div class="contact__email display-f gap-2 mt-1">
+              <div class="h4 text-dark">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <p class="h5">fishzatrading@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact__hours mt-3 mb-3">
+            <h3 class="h3">Business Hours</h3>
+
+            <div class="display-f gap-2 mt-2">
+              <div class="h4 text-dark">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <p class="h5">
+                Our Call center is always available 24 hours a day, 7 days a
+                week
+              </p>
+            </div>
+            <div class="display-f gap-2 mt-1">
+              <div class="h4 text-dark">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="h5">
+                <p>Monday-Friday: <span class="ml-1">9am- 5pm</span></p>
+                <p>Saturday: <span class="ml-1">9am - 2pm</span></p>
+                <p>Sunday:<span class="ml-1">Closed</span></p>
+              </div>
+            </div>
+          </div>
+          <h3 class="h3">Office Location</h3>
+          <div class="display-f gap-2 mt-1 mb-1">
+            <div class="h4 text-dark">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <p class="h5 mb-1">Windhoek, Namibia</p>
+          </div>
+          <iframe title="Windhoek Namibia"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4911588753216!2d3.334067814266794!3d6.585703724265425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b91f4561a4f95%3A0x35b4d251e9caeb49!2sTijani%20Ahmed%20Way%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sar!4v1593524047503!5m2!1sen!2sar"
+            width="inherit" height="450" frameborder="1" allowfullscreen="" aria-hidden="false" tabindex="0"
+            class="w-100 contact__location"></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact section -->
+  </main>
+  <!-- End of Main Section -->
+
+  <!-- Footer Section  -->
+  <footer class="footer bg-dark text-white pt-5 pb-5">
+    <div class="container">
+      <div class="row gap-3 justify-space-between footer__about">
+        <div class="col-12-xs col-3-md">
+          <div class="mb-2">
+            <a href="/" class="display-f footer__brand align-center">
+              <img loading="lazy" src="./assets/images/home/FishzaLogo.png" alt="Fishza Trading Logo"
+                class="footer__brand-image" />
+            </a>
+          </div>
+          <p class="mb-3">
+            Fishza Trading is a trusted labour solutions provider, offering a
+            wide range of services tailored to the warehousing and logistics
+            industry.
+          </p>
+
+          <div>
+            <a href="#contact-us" type="button" class="footer_cta btn-primary text-dark h5 px-2">Get a Quote</a>
+          </div>
+        </div>
+        <div class="col-12-xs col-3-md hide-for-mobile">
+          <h3 class="h3 text-primary text-center mb-3">Pages</h3>
+          <div class="footer__links display-g justify-center gap-3">
+            <a href="#about-us" class="footer__link text-primary text-hover-primary h5">About Us</a>
+            <a href="#services" class="footer__link text-primary text-hover-primary h5">Services</a>
+            <a href="#projects" class="footer__link text-primary text-hover-primary h5">Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h4 class="h4 text-center fw-normal mt-5">
+      COPYRIGHT &copy; Fishza Trading | 2025 | ALL RIGHTS RESERVED.
+    </h4>
+    </div>
+  </footer>
+</body>
+
 </html>
